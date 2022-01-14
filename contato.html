@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilocontato.css">   
+</head>
+<body>
+    <!--Menu de navegação-->
+    <header class="topo">
+        <nav class="menu">
+            <div class="logo">Laranjal</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quem-somos.html">Sobre Nós</a></li>
+                <li><a href="onde-comprar.html">Onde Comprar</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--Seções-->
+    <section class="contato">
+        <div id="texto">
+            <h2>contate-nos</h2>
+            <p>Dê uma paradinha em nossa barraca ou em uma das lojas parceiras listadas para pegar uma amostra grátis.</p>
+            <p><b>Laranjal</b></p>
+            <p>Estrada da Pedra Branca - Paraty, Rio de Janeiro, Brasil, RJ, 23970-000</p>
+            <p>E-mail:fazendalaranjal@webnode.br</p>
+            <p>Telefone:+55 24 3371-1666</p>
+        </div>
+        <div class="questionario">
+           <form method="post" action="enviar.php" name="formcontato">
+               <div>
+                    <label for="txtnome">Nome</label>
+                    <input type="text" id="txtnome" name="nome" class="formtexto"/>
+               </div>
+               <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="formtexto"/>
+                </div>
+                <div>
+                    <label for="msg">Mensagem</label>
+                    <textarea id="msg" name="msg" class="formtexto"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Enviar</button>
+                </div>
+           </form>
+        </div>
+    </section>
+    <article>
+        <br>
+        <hr />
+        <h5>Laranjal. Colhido na hora em 2019</h5>
+        <h5>Desenvolvido por <u>Webnode</u></h5>
+    </article>
+</body>
+<footer>
+    <nav class="base">
+        <div class="final">Crie um site gratuito</div>
+        <ul>
+            <li>Webnode</li>
+        </ul>
+    </nav>
+</footer>
+</html>
